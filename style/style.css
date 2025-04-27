@@ -25,7 +25,7 @@ body {
 
 
 .navigation_btn .btn {
-    border: 1px solid rgb(14, 244, 14);
+    border: 5px solid rgb(14, 244, 14);
     color: white;
     display: flex;
     background-color: rgba(14, 244, 14, 0.494);
@@ -87,4 +87,34 @@ body {
 .page_button:disabled {
     background-color: #0ef40e;
     cursor: default;
+}
+
+.episode_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.episode_item {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.location_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.location_item {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
